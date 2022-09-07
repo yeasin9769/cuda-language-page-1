@@ -1,0 +1,466 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Titillium Web', sans-serif;
+}
+/* =========================header-part====================================== */
+#heading {
+    background-color: #87509c;
+    padding: 50px 0px;
+    width: 100%;
+    float: left;
+    color: #fff;
+}
+.container {
+    width: 90%;
+    margin: auto;
+}
+.nevigation {
+    width: 100%;
+    float: left;
+    padding: 20px 0px;
+}
+.logo-part {
+    width: 50%;
+    float: left;
+}
+.menu-part {
+    width: 50%;
+    float: left;
+    text-align: right;
+}
+.menu-part li {
+    display: inline-block;
+    margin: 0px 10px;
+}
+.menu-part a {
+    font-size: 15px;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 5px;
+    border-radius: 5px;
+}
+.menu-part a:hover {
+    background-color: rgba(0, 0, 0, 0.226);
+}
+.hero-part {
+width: 100%;
+float: left;
+margin: 80px 0px;
+text-align: center;
+}
+.hero-part h1 {
+    font-size: 30px;
+    font-weight: 500;
+    width: 70%;
+    margin: auto;
+}
+.hero-part a button {
+width: 22%;
+padding: 7px 10px;
+margin-top: 30px;
+color: #fff;
+background-color: #eb7d4b;
+box-shadow: 2px 2px #b95222;
+}
+.hero-part a button:hover {
+background-color: #b95222;
+border-radius: 5px;
+transition: .4s;
+}
+section {
+    padding: 70px 0px;
+}
+/* =======================service-part========================== */
+#service {
+background-color: #17c2a4;
+width: 100%;
+float: left;
+}
+.service-writhing-part {
+padding: 20px;
+width: 100%;
+float: left;
+}
+.service-writhing-part h1 {
+font-size: 30px;
+font-weight: 600;
+text-align: center;
+padding-bottom: 20px;
+color: #fff;
+}
+.underline {
+    border-top: 4px solid rgba(0, 0, 0, 0.288);
+    width: 5%;
+    margin: auto;
+}
+.service-writing-part-paragraph {
+    width: 70%;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    margin: auto;
+    color: #fff;
+    padding-top: 20px;
+}
+.service-box-part {
+width: 100%;
+float: left;
+padding-top: 50px;
+}
+.sevice-box {
+    width: 25%;
+    float: left;
+}
+.sevice-box img {
+    width: 130px;
+}
+/* ====================Team-part=============== */
+#team {
+background-color: #e7f1f8;
+width: 100%;
+float: left;
+}
+.team-writing-part {
+width: 100%;
+float: left;
+padding: 30px 0px;
+}
+.team-writing-part h2 {
+    font-size: 27px;
+    font-weight: 700;
+    padding-bottom:30px ;
+    text-align: center;
+}
+.team-writing-part-paragraph {
+    width: 65%;
+    margin: auto;
+    font-size: 17px;
+    padding: 20px 0px;
+    font-weight: 500;
+}
+.team-box-part {
+    width: 100%;
+    float: left;
+}
+.team-box {
+    width: 25%;
+    float: left;
+    margin: auto;
+}
+.team-box-part img {
+    width: 130px;
+    margin-left: 43px;
+}
+.team-box h2 {
+    font-size: 22px;
+    font-weight: 700;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    text-align: center;
+}
+.team-box h3 {
+    font-size: 15px;
+    font-family: 600;
+    color: #55c2e9;
+    padding: 10px 0px 20px 0px;
+    text-align: center;
+}
+.team-box p {
+    text-align: center;
+    padding: 17px 0px;
+}
+/* ===========================skills=============================== */
+#skills {
+background-color: #fff;
+width: 100%;
+float: left;
+}
+.skills-writing-part {
+width: 100%;
+float: left;
+padding: 30px;
+}
+.skills-writing-part h2 {
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 20px;
+    font-family: courier;
+}
+.skills-writing-part-paragraph {
+    width: 65%;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    padding: 20px 0px;
+    margin: auto;
+}
+.skills-box-part {
+    float: left;
+    width: 100%;
+}
+.skills-box {
+    width: 25%;
+    float: left;
+    padding: 20px;
+}
+.skills-box h2 {
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    padding: 20px 0px;
+}
+.skills-box img {
+    margin-left: 26px;
+    width: 120px;
+}
+/* ======================portfolio============================ */
+.portfolio {
+background-color: #ffdd99;
+width:100%;
+float: left;
+}
+.portfolio-writing-part {
+width: 100%;
+float: left;
+padding-bottom: 20px;
+}
+.portfolio-writing-part h1 {
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    padding-bottom:20px ;
+}
+.portfolio-writing-part-paragraph {
+    font-size: 18px;
+    font-weight: 500;
+    padding: 20px 0px;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+#portfolio-icon {
+width: 100%;
+margin: auto;
+text-align: center;
+float: left;
+padding: 20px 0px;
+}
+#portfolio-icon li {
+    display: inline-block;
+    padding: 0px 10px;
+}
+#portfolio-icon a {
+    color: black;
+    text-transform: uppercase;
+    font-size: 17px;
+    border-radius: 5px;
+    font-weight: 600;
+    padding: 0px 10px;
+    background-color:#e6b960b7 ;
+}
+#portfolio-icon a:hover {
+    background-color: #ad8027;
+}
+.portfolio-box-1-part {
+    width: 100%;
+    float: left;
+    padding-bottom: 50px;
+    padding-top: 30px;
+}
+.portfolio-box-2-part {
+    width: 100%;
+    float: left;
+    padding-bottom: 50px;
+}
+.portfolio-box {
+    width: 50%;
+    float: left;
+}
+.portfolio-box img {
+    width: 350px;
+    margin-left: 50px;
+    text-align: center;
+}
+.botam-part {
+    width: 25%;
+    margin: auto;
+    
+}
+.botam-part a button {
+    padding: 7px 13px;
+    background-color: #17c2a4;
+    box-shadow: 2px 2px #19a38a;
+}
+.botam-part a button:hover {
+    background-color: #237768;
+}
+/* =============================testimonials========================== */
+#testimonials {
+background-color: #d74680;
+width: 100%;
+float: left;
+}
+.testimonial-writing-part {
+width: 100%;
+float: left;
+padding-bottom: 30px;
+color: #fff;
+}
+.testimonial-writing-part h1 {
+    font-size: 30px;
+    text-align: center;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+.testimonial-writing-part-paragraph {
+    font-size: 17px;
+    font-weight: 500;
+    text-align: center;
+    padding: 18px 0px;
+}
+.testimonial-box-1-part {
+    width: 100%;
+    float: left;
+    color: #fff;
+    padding-bottom: 50px;
+}
+.testimonial-icon {
+    width: 13%;
+    float: left;
+}
+.testimonial-icon img {
+    width: 80px;
+    margin-left: 50px;
+}
+.testimonial-writing {
+    width: 37%;
+    float: left;
+    text-align:left;
+}
+.testimonial-writing p {
+    padding: 3px 0px 15px 0px;
+    font-size: 14px;
+    width: 70%;
+    margin: auto;
+}
+.testimonial-writing h2 {
+    width: 70%;
+    margin: auto;
+}
+.testimonial-writing h6 {
+    width: 70%;
+    margin: auto;
+    padding-bottom: 30px;
+}
+.testimonial-box-2-part {
+    width: 100%;
+    float: left;
+    color: #fff;
+    padding-top: 30px;
+}
+/* ===========================getintouch========================= */
+#getintouch {
+    background-color: #3c5499;
+    width: 100%;
+    float: left;
+}
+.getintouch-writing-part {
+padding: 20px 0px;
+}
+.getintouch-writing-part h1 {
+    font-size: 30px;
+    font-weight: 400;
+    padding-bottom:20px;
+    text-align: center;
+    color: #fff;
+}
+.getintouch-writing-part-paragraph {
+    font-size: 17px;
+    font-weight: 500;
+    padding: 20px 0px;
+    text-align: center;
+    color: #fff;
+}
+.getintouch-form-part {
+    width: 100%;
+    float: left;
+    padding-bottom: 20px;
+}
+input {
+    padding: 8px 50px;
+    border-radius: 3px;
+    background-color: #273a71;
+
+}
+.f-name {
+    width: 45%;
+    float: left; 
+    text-align: right; 
+}
+.email {
+    width: 45%;
+    float: left;
+    text-align: center;
+}
+.massage-box {
+    width: 100%;
+    float: left;
+    padding: 30px 0px;
+}
+.massage-box textarea {
+    height: 200px;
+    border-radius: 3px;
+    background-color: #273a71;
+    width: 67%;
+    margin-left: 140px;
+    padding-top: 6px;
+}
+.send-message {
+    width: 30%;
+    margin-left:360px;
+    float: left;
+}
+.send-message input {
+    background-color: #30bae7;
+    padding:10px 45px;
+    box-shadow: 2px 2px #1998c2;
+    color: #fff;
+}
+.send-message input:hover {
+    background-color:#1998c2;
+}
+/* ========================footer==========================  */
+#menu-part {
+    width: 100%;
+    float: left;
+    background-color: #344b8e;
+    padding: 5px;
+}
+.writer {
+    width: 90%;
+    margin: auto;
+}
+.writer-part {
+    width: 100%;
+    float: left;
+    padding: 10px;
+    text-align: center;
+}
+.writer-part li {
+    display: inline-block;
+}
+.writer-part a {
+    font-size: 17px;
+    font-weight: 500;
+    padding: 7px 20px;
+    color: #fff;
+}
+.writer-part a:hover {
+    color: #327fb8;
+}
